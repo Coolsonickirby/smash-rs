@@ -5,6 +5,7 @@
 #![allow(incomplete_features)]
 #![allow(improper_ctypes)] // For simd
 #![allow(non_snake_case)]
+#![feature(effects)] // for const partial eq
 pub mod app;
 pub mod cpp;
 mod lib_impl;
